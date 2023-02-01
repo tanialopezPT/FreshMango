@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CodeHim" />
+    <title>Your Fresh Mango Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+          <h1 class="cart-is-empty">Cart is empty</h1>
+
+          <div class="product-rows"></div>
+          <div class="total">
+            <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+            <button class="purchase-btn">PURCHASE</button>
+          </div>
+        </div>
+      </div>
+
+      <!--   end of cart modal -->
+      <nav>
+        <img class="logo" src="./img/IMG_0365.PNG" />
+        <div class="cart-btn">
+          <i id="cart" class="fas fa-shopping-cart"></i>
+          <span class="cart-quantity">0</span>
+        </div>
+      </nav>
+      <!--  products  -->
+      <div class="items-container">
+        <div class="card-2 card">
+          <img class="product-image" src="./img/pic1.jpeg" alt="" />
+          
+          <span class="product-price">$80</span>
+          <aside>Includes choice of 2 meats, fruit, cheese, and a side (8 people)</aside>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="./img/pic2.jpeg" alt="" />
+          
+          <span class="product-price">$125</span>
+          <aside>Includes choice of 3 meats, 3 fruit, cheese, and 2 sides (12 people)</aside>
+          <button class="add-to-cart">Add to cart</button></br>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="./img/pic2.webp" alt="" />
+          
+          <span class="product-price">$175</span>
+          <aside>Includes choice of 5 meats, 4 fruit, cheeses, crackers, and 2 sides (20 people)</aside>
+          <button class="add-to-cart">Add to cart</button></br>
+        </div>
+        <div class="card-5 card">
+          <img class="product-image" src="./img/pic3.jpeg" alt="" />
+          
+          <span class="product-price">$225</span>
+          <aside>Includes choice of any meat, fruits, all cheeses, crackers and all sides (30 people)</aside>
+          <button class="add-to-cart">Add to cart</button></br>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
